@@ -1,6 +1,4 @@
 import VaccineTest from "../vaccineTest";
-import Recipient from "../recipient";
-import Covid19Vaccine from "../covid19Vaccine";
 
 const mockAcceptInjection = jest.fn();
 let mockGetHasAntibodies = jest.fn().mockReturnValue(true);
